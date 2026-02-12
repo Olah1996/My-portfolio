@@ -1,32 +1,4 @@
-
-
-
-// import "../styles/navbar.css";
-
-// const Navbar = ({ setActiveSection ,toggleTheme}) => {
-//   return (
-//     <nav className="navbar">
-//       <img src="/kadloy2.jpeg" alt="Logo" className="logo" />
-
-//       <div className="nav-links">
-//         <button onClick={() => setActiveSection("home")}>Home</button>
-//         <button onClick={() => setActiveSection("about")}>About</button>
-//         <button onClick={() => setActiveSection("projects")}>Projects</button>
-//         <button onClick={() => setActiveSection("contact")}>Contact</button>
-
-
-//         <button className="theme-btn" onClick={toggleTheme}>
-
-//           🌙
-//         </button>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
-
+import navimg from "../assets/kadloy2.png"
 import { useState } from "react";
 import "../styles/navbar.css";
 
@@ -41,7 +13,7 @@ const Navbar = ({ setActiveSection, toggleTheme }) => {
 
   return (
     <nav className="navbar">
-      <img src="kadloy2.png" alt="Logo" className="logo" />
+      <img src={navimg} alt="Logo" className="logo" />
 
       {/* HAMBURGER */}
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
