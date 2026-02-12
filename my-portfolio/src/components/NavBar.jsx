@@ -30,6 +30,7 @@
 import { useState } from "react";
 import "../styles/navbar.css";
 
+
 const Navbar = ({ setActiveSection, toggleTheme }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -40,7 +41,7 @@ const Navbar = ({ setActiveSection, toggleTheme }) => {
 
   return (
     <nav className="navbar">
-      <img src="kadloy2.jpeg" alt="Logo" className="logo" />
+      <img src="kadloy2.png" alt="Logo" className="logo" />
 
       {/* HAMBURGER */}
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
