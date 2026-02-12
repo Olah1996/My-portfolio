@@ -40,7 +40,7 @@ const Navbar = ({ setActiveSection, toggleTheme }) => {
 
   return (
     <nav className="navbar">
-      <img src="/kadloy2.jpeg" alt="Logo" className="logo" />
+      <img src="kadloy2.jpeg" alt="Logo" className="logo" />
 
       {/* HAMBURGER */}
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
