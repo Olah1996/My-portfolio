@@ -22,6 +22,16 @@ const projects = [
   
  },
 
+  {
+  id: 4,
+  title: "Hairline Website",
+  description: "A Hair stylist website",
+  github: "https://durah-harline.netlify.app/",
+  
+ },
+
+ 
+
 ];
 
 export default projects;
