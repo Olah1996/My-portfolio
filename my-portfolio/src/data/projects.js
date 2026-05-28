@@ -30,6 +30,14 @@ const projects = [
   
  },
 
+ {
+  id: 5,
+  title: "Hairline Website",
+  description: "A Hair stylist website",
+  github: "https://kadtrack.netlify.app/login",
+  
+ },
+
  
 
 ];
